@@ -1,2 +1,24 @@
 # Control-Digital-Lavarropas
-Desarrollo y prueba de un sistema de control digital para un lavarropas automático mediante una FPGA
+
+## Autores
+* Joaquin Gonzalez Budiño: <joa_gzb@hotmail.com> || <joa.gzb@gmail.com>
+* Nicolas Giuliano: <nsgiuliano@gmail.com>
+
+## Desafío
+Realizar un diseño para el caso de lavarropas automático que permita controlar los distintos procesos en el lavado (lavado,enjuague y centrifugado). Las distintas combinaciones de ellos forman los programas de lavado, por lo que se deberá diseñar los distintos programas de lavado electos por el usuario.
+
+## breve descripción
+Se presentaron dos métodos utilizados para el diseño y su posterior prueba en una  FPGA. Los métodos son: 
+
+* mediante un lenguaje de descripción de hardware (VHD) y 
+* a partir del diagrama esquemático. 
+
+El primero permite realizar un diseño sin tomar en cuenta el hardware involucrado, es decir, es un diseño Top-Down con lo
+cual se incrementa la productividad y la reutilización del diseño, además permite detectar los errores con mayor rapidez. Sin embargo, posee como desventaja la dificultad de comprender la arquitectura de componentes logicos, el flujo de datos y la relacion directa entre componentes para los diseñadores. 
+
+Por su parte, el diseño a partir del diagrama esquemático permite al programador conocer perfectamente toda la lógica que se
+encuentra implicada por cuanto debe realizar la deducción de todas las ecuaciones combinacionales y secuenciales presentes.
+Los resultados obtenidos en la simulación mostrado en el siguiente video evidencian el buen comportamiento del sistema de control diseñado obtenido a partir del diagrama esquemático.
+
+## Video de la simulación
+[![Diseño digital de control automático de lavarropas](http://img.youtube.com/vi/94JvlFr-tns/0.jpg)](http://www.youtube.com/watch?v=94JvlFr-tns "Diseño digital de control automático de lavarropas")
