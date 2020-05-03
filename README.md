@@ -7,7 +7,7 @@
 ## Desafío
 Realizar un diseño para el caso de lavarropas automático que permita controlar los distintos procesos en el lavado (lavado,enjuague y centrifugado). Las distintas combinaciones de ellos forman los programas de lavado, por lo que se deberá diseñar los distintos programas de lavado electos por el usuario.
 
-## breve descripción
+## Breve descripción
 Se presentaron dos métodos utilizados para el diseño y su posterior prueba en una  FPGA. Los métodos son: 
 
 * mediante un lenguaje de descripción de hardware (VHD) y 
@@ -18,7 +18,12 @@ cual se incrementa la productividad y la reutilización del diseño, además per
 
 Por su parte, el diseño a partir del diagrama esquemático permite al programador conocer perfectamente toda la lógica que se
 encuentra implicada por cuanto debe realizar la deducción de todas las ecuaciones combinacionales y secuenciales presentes.
-Los resultados obtenidos en la simulación mostrado en el siguiente video evidencian el buen comportamiento del sistema de control diseñado obtenido a partir del diagrama esquemático.
+Los resultados obtenidos en la simulación, mostrado en el siguiente video, evidencian el buen comportamiento del sistema de control diseñado obtenido a partir del diagrama esquemático.
+
+## Informe de Implementación
+A continuación, se adjunta el informe que detalla la resolución del diseño en PDF
+
+[ver informe de Implementación PDF](https://github.com/guobiloo/Control-Digital-Lavarropas/blob/master/informe%20-%20control%20digital%20de%20lavarropas.pdf)
 
 ## Video de la simulación
 [![Diseño digital de control automático de lavarropas](http://img.youtube.com/vi/94JvlFr-tns/0.jpg)](http://www.youtube.com/watch?v=94JvlFr-tns "Diseño digital de control automático de lavarropas")
