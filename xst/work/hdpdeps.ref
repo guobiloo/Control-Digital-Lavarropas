@@ -1,0 +1,408 @@
+V3 161
+FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/centrifugado.vhf" 2015/06/30.10:27:50 P.20131013
+EN work/contador5sin_MUSER_centrifugado 1435670908 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/centrifugado.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/contador5sin_MUSER_centrifugado/BEHAVIORAL 1435670909 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/centrifugado.vhf" \
+      EN work/contador5sin_MUSER_centrifugado 1435670908 CP FDCE CP AND2B1 \
+      CP AND4B2 CP AND3B1 CP OR2 CP AND3 CP VCC CP GND
+EN work/FJKC_MXILINX_centrifugado 1435670910 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/centrifugado.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/FJKC_MXILINX_centrifugado/BEHAVIORAL 1435670911 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/centrifugado.vhf" \
+      EN work/FJKC_MXILINX_centrifugado 1435670910 CP FDC CP AND3B2 CP AND3B1 CP OR3 \
+      CP AND2B1
+EN work/Contador5S2_MUSER_centrifugado 1435670912 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/centrifugado.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Contador5S2_MUSER_centrifugado/BEHAVIORAL 1435670913 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/centrifugado.vhf" \
+      EN work/Contador5S2_MUSER_centrifugado 1435670912 CP VCC \
+      CP FJKC_MXILINX_centrifugado CP AND2 CP INV
+EN work/Contador10S2_MUSER_centrifugado 1435670914 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/centrifugado.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Contador10S2_MUSER_centrifugado/BEHAVIORAL 1435670915 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/centrifugado.vhf" \
+      EN work/Contador10S2_MUSER_centrifugado 1435670914 \
+      CP FJKC_MXILINX_centrifugado CP AND2 CP VCC CP OR2 CP INV
+EN work/Reloj50mHz_a_1Hz_MUSER_centrifugado 1435670916 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/centrifugado.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Reloj50mHz_a_1Hz_MUSER_centrifugado/BEHAVIORAL 1435670917 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/centrifugado.vhf" \
+      EN work/Reloj50mHz_a_1Hz_MUSER_centrifugado 1435670916 \
+      CP Contador10S2_MUSER_centrifugado CP Contador5S2_MUSER_centrifugado
+EN work/centrifugado 1435670918 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/centrifugado.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/centrifugado/BEHAVIORAL 1435670919 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/centrifugado.vhf" \
+      EN work/centrifugado 1435670918 CP AND2B1 CP FJKC_MXILINX_centrifugado CP GND \
+      CP Reloj50mHz_a_1Hz_MUSER_centrifugado CP INV \
+      CP contador5sin_MUSER_centrifugado
+FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/Contador10S2.vhf" 2015/06/30.10:27:50 P.20131013
+EN work/FJKC_MXILINX_Contador10S2 1435670970 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/Contador10S2.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/FJKC_MXILINX_Contador10S2/BEHAVIORAL 1435670971 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/Contador10S2.vhf" \
+      EN work/FJKC_MXILINX_Contador10S2 1435670970 CP FDC CP AND3B2 CP AND3B1 CP OR3 \
+      CP AND2B1
+EN work/Contador10S2 1435670972 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/Contador10S2.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Contador10S2/BEHAVIORAL 1435670973 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/Contador10S2.vhf" \
+      EN work/Contador10S2 1435670972 CP FJKC_MXILINX_Contador10S2 CP AND2 CP VCC \
+      CP OR2 CP INV
+FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/contador10sin.vhf" 2015/06/30.10:27:48 P.20131013
+EN work/FJKC_MXILINX_contador10sin 1435670956 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/contador10sin.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/FJKC_MXILINX_contador10sin/BEHAVIORAL 1435670957 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/contador10sin.vhf" \
+      EN work/FJKC_MXILINX_contador10sin 1435670956 CP FDC CP AND3B2 CP AND3B1 \
+      CP OR3 CP AND2B1
+EN work/contador10sin 1435670958 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/contador10sin.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/contador10sin/BEHAVIORAL 1435670959 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/contador10sin.vhf" \
+      EN work/contador10sin 1435670958 CP FJKC_MXILINX_contador10sin CP AND2 CP VCC \
+      CP OR2 CP INV CP AND4B2
+FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/Contador5S2.vhf" 2015/06/30.10:27:50 P.20131013
+EN work/FJKC_MXILINX_Contador5S2 1435670974 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/Contador5S2.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/FJKC_MXILINX_Contador5S2/BEHAVIORAL 1435670975 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/Contador5S2.vhf" \
+      EN work/FJKC_MXILINX_Contador5S2 1435670974 CP FDC CP AND3B2 CP AND3B1 CP OR3 \
+      CP AND2B1
+EN work/Contador5S2 1435670976 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/Contador5S2.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Contador5S2/BEHAVIORAL 1435670977 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/Contador5S2.vhf" \
+      EN work/Contador5S2 1435670976 CP VCC CP FJKC_MXILINX_Contador5S2 CP AND2 \
+      CP INV
+FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/contador5sin.vhf" 2015/06/30.10:27:48 P.20131013
+EN work/contador5sin 1435670960 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/contador5sin.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/contador5sin/BEHAVIORAL 1435670961 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/contador5sin.vhf" \
+      EN work/contador5sin 1435670960 CP FDCE CP AND2B1 CP AND4B2 CP AND3B1 CP OR2 \
+      CP AND3 CP VCC CP GND
+FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/conversorS.vhf" 2015/06/30.10:27:48 P.20131013
+EN work/conversorS 1435670920 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/conversorS.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/conversorS/BEHAVIORAL 1435670921 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/conversorS.vhf" \
+      EN work/conversorS 1435670920 CP AND3B2 CP AND3B1 CP OR2 CP AND2B1
+FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/demux2_1.vhf" 2015/06/30.10:27:48 P.20131013
+EN work/demux2_1 1435670922 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/demux2_1.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/demux2_1/BEHAVIORAL 1435670923 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/demux2_1.vhf" \
+      EN work/demux2_1 1435670922 CP AND2 CP AND2B1
+FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/enjuague.vhf" 2015/06/30.10:27:49 P.20131013
+EN work/FJKC_MXILINX_enjuague 1435670924 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/enjuague.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/FJKC_MXILINX_enjuague/BEHAVIORAL 1435670925 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/enjuague.vhf" \
+      EN work/FJKC_MXILINX_enjuague 1435670924 CP FDC CP AND3B2 CP AND3B1 CP OR3 \
+      CP AND2B1
+EN work/Contador5S2_MUSER_enjuague 1435670926 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/enjuague.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Contador5S2_MUSER_enjuague/BEHAVIORAL 1435670927 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/enjuague.vhf" \
+      EN work/Contador5S2_MUSER_enjuague 1435670926 CP VCC \
+      CP FJKC_MXILINX_enjuague CP AND2 CP INV
+EN work/Contador10S2_MUSER_enjuague 1435670928 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/enjuague.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Contador10S2_MUSER_enjuague/BEHAVIORAL 1435670929 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/enjuague.vhf" \
+      EN work/Contador10S2_MUSER_enjuague 1435670928 CP FJKC_MXILINX_enjuague \
+      CP AND2 CP VCC CP OR2 CP INV
+EN work/Reloj50mHz_a_1Hz_MUSER_enjuague 1435670930 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/enjuague.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Reloj50mHz_a_1Hz_MUSER_enjuague/BEHAVIORAL 1435670931 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/enjuague.vhf" \
+      EN work/Reloj50mHz_a_1Hz_MUSER_enjuague 1435670930 \
+      CP Contador10S2_MUSER_enjuague CP Contador5S2_MUSER_enjuague
+EN work/contador10sin_MUSER_enjuague 1435670932 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/enjuague.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/contador10sin_MUSER_enjuague/BEHAVIORAL 1435670933 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/enjuague.vhf" \
+      EN work/contador10sin_MUSER_enjuague 1435670932 CP FJKC_MXILINX_enjuague \
+      CP AND2 CP VCC CP OR2 CP INV CP AND4B2
+EN work/enjuague 1435670934 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/enjuague.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/enjuague/BEHAVIORAL 1435670935 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/enjuague.vhf" \
+      EN work/enjuague 1435670934 CP contador10sin_MUSER_enjuague CP GND CP AND2B1 \
+      CP FJKC_MXILINX_enjuague CP INV CP Reloj50mHz_a_1Hz_MUSER_enjuague
+FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/lavado.vhf" 2015/06/30.10:27:49 P.20131013
+EN work/FJKC_MXILINX_lavado 1435670936 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/lavado.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/FJKC_MXILINX_lavado/BEHAVIORAL 1435670937 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/lavado.vhf" \
+      EN work/FJKC_MXILINX_lavado 1435670936 CP FDC CP AND3B2 CP AND3B1 CP OR3 \
+      CP AND2B1
+EN work/Contador5S2_MUSER_lavado 1435670938 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/lavado.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Contador5S2_MUSER_lavado/BEHAVIORAL 1435670939 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/lavado.vhf" \
+      EN work/Contador5S2_MUSER_lavado 1435670938 CP VCC CP FJKC_MXILINX_lavado \
+      CP AND2 CP INV
+EN work/Contador10S2_MUSER_lavado 1435670940 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/lavado.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Contador10S2_MUSER_lavado/BEHAVIORAL 1435670941 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/lavado.vhf" \
+      EN work/Contador10S2_MUSER_lavado 1435670940 CP FJKC_MXILINX_lavado CP AND2 \
+      CP VCC CP OR2 CP INV
+EN work/Reloj50mHz_a_1Hz_MUSER_lavado 1435670942 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/lavado.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Reloj50mHz_a_1Hz_MUSER_lavado/BEHAVIORAL 1435670943 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/lavado.vhf" \
+      EN work/Reloj50mHz_a_1Hz_MUSER_lavado 1435670942 \
+      CP Contador10S2_MUSER_lavado CP Contador5S2_MUSER_lavado
+EN work/contador10sin_MUSER_lavado 1435670944 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/lavado.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/contador10sin_MUSER_lavado/BEHAVIORAL 1435670945 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/lavado.vhf" \
+      EN work/contador10sin_MUSER_lavado 1435670944 CP FJKC_MXILINX_lavado CP AND2 \
+      CP VCC CP OR2 CP INV CP AND4B2
+EN work/lavado 1435670946 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/lavado.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/lavado/BEHAVIORAL 1435670947 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/lavado.vhf" \
+      EN work/lavado 1435670946 CP contador10sin_MUSER_lavado CP AND2B1 \
+      CP FJKC_MXILINX_lavado CP GND CP Reloj50mHz_a_1Hz_MUSER_lavado CP INV
+FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/lavarropas.vhf" 2015/06/30.10:27:50 P.20131013
+EN work/contador5sin_MUSER_lavarropas 1435670880 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/lavarropas.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/contador5sin_MUSER_lavarropas/BEHAVIORAL 1435670881 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/lavarropas.vhf" \
+      EN work/contador5sin_MUSER_lavarropas 1435670880 CP FDCE CP AND2B1 CP AND4B2 \
+      CP AND3B1 CP OR2 CP AND3 CP VCC CP GND
+EN work/FJKC_MXILINX_lavarropas 1435670882 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/lavarropas.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/FJKC_MXILINX_lavarropas/BEHAVIORAL 1435670883 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/lavarropas.vhf" \
+      EN work/FJKC_MXILINX_lavarropas 1435670882 CP FDC CP AND3B2 CP AND3B1 CP OR3 \
+      CP AND2B1
+EN work/Contador5S2_MUSER_lavarropas 1435670884 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/lavarropas.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Contador5S2_MUSER_lavarropas/BEHAVIORAL 1435670885 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/lavarropas.vhf" \
+      EN work/Contador5S2_MUSER_lavarropas 1435670884 CP VCC \
+      CP FJKC_MXILINX_lavarropas CP AND2 CP INV
+EN work/Contador10S2_MUSER_lavarropas 1435670886 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/lavarropas.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Contador10S2_MUSER_lavarropas/BEHAVIORAL 1435670887 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/lavarropas.vhf" \
+      EN work/Contador10S2_MUSER_lavarropas 1435670886 CP FJKC_MXILINX_lavarropas \
+      CP AND2 CP VCC CP OR2 CP INV
+EN work/Reloj50mHz_a_1Hz_MUSER_lavarropas 1435670888 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/lavarropas.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Reloj50mHz_a_1Hz_MUSER_lavarropas/BEHAVIORAL 1435670889 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/lavarropas.vhf" \
+      EN work/Reloj50mHz_a_1Hz_MUSER_lavarropas 1435670888 \
+      CP Contador10S2_MUSER_lavarropas CP Contador5S2_MUSER_lavarropas
+EN work/centrifugado_MUSER_lavarropas 1435670890 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/lavarropas.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/centrifugado_MUSER_lavarropas/BEHAVIORAL 1435670891 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/lavarropas.vhf" \
+      EN work/centrifugado_MUSER_lavarropas 1435670890 CP AND2B1 \
+      CP FJKC_MXILINX_lavarropas CP GND CP Reloj50mHz_a_1Hz_MUSER_lavarropas CP INV \
+      CP contador5sin_MUSER_lavarropas
+EN work/demux2_1_MUSER_lavarropas 1435670892 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/lavarropas.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/demux2_1_MUSER_lavarropas/BEHAVIORAL 1435670893 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/lavarropas.vhf" \
+      EN work/demux2_1_MUSER_lavarropas 1435670892 CP AND2 CP AND2B1
+EN work/valvula_MUSER_lavarropas 1435670894 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/lavarropas.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/valvula_MUSER_lavarropas/BEHAVIORAL 1435670895 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/lavarropas.vhf" \
+      EN work/valvula_MUSER_lavarropas 1435670894 CP AND2 \
+      CP FJKC_MXILINX_lavarropas CP GND CP AND2B1
+EN work/vaciado_MUSER_lavarropas 1435670896 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/lavarropas.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/vaciado_MUSER_lavarropas/BEHAVIORAL 1435670897 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/lavarropas.vhf" \
+      EN work/vaciado_MUSER_lavarropas 1435670896 CP GND \
+      CP FJKC_MXILINX_lavarropas CP AND2 CP AND2B1
+EN work/contador10sin_MUSER_lavarropas 1435670898 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/lavarropas.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/contador10sin_MUSER_lavarropas/BEHAVIORAL 1435670899 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/lavarropas.vhf" \
+      EN work/contador10sin_MUSER_lavarropas 1435670898 \
+      CP FJKC_MXILINX_lavarropas CP AND2 CP VCC CP OR2 CP INV CP AND4B2
+EN work/enjuague_MUSER_lavarropas 1435670900 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/lavarropas.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/enjuague_MUSER_lavarropas/BEHAVIORAL 1435670901 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/lavarropas.vhf" \
+      EN work/enjuague_MUSER_lavarropas 1435670900 \
+      CP contador10sin_MUSER_lavarropas CP GND CP AND2B1 CP FJKC_MXILINX_lavarropas \
+      CP INV CP Reloj50mHz_a_1Hz_MUSER_lavarropas
+EN work/lavado_MUSER_lavarropas 1435670902 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/lavarropas.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/lavado_MUSER_lavarropas/BEHAVIORAL 1435670903 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/lavarropas.vhf" \
+      EN work/lavado_MUSER_lavarropas 1435670902 \
+      CP contador10sin_MUSER_lavarropas CP AND2B1 CP FJKC_MXILINX_lavarropas CP GND \
+      CP Reloj50mHz_a_1Hz_MUSER_lavarropas CP INV
+EN work/conversorS_MUSER_lavarropas 1435670904 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/lavarropas.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/conversorS_MUSER_lavarropas/BEHAVIORAL 1435670905 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/lavarropas.vhf" \
+      EN work/conversorS_MUSER_lavarropas 1435670904 CP AND3B2 CP AND3B1 CP OR2 \
+      CP AND2B1
+EN work/lavarropas 1435670906 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/lavarropas.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/lavarropas/BEHAVIORAL 1435670907 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/lavarropas.vhf" \
+      EN work/lavarropas 1435670906 CP conversorS_MUSER_lavarropas \
+      CP demux2_1_MUSER_lavarropas CP valvula_MUSER_lavarropas \
+      CP lavado_MUSER_lavarropas CP enjuague_MUSER_lavarropas \
+      CP vaciado_MUSER_lavarropas CP OR2 CP centrifugado_MUSER_lavarropas CP INV \
+      CP FDC
+FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/Reloj50mHz_a_1Hz.vhf" 2015/06/30.10:27:50 P.20131013
+EN work/FJKC_MXILINX_Reloj50mHz_a_1Hz 1435670962 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/Reloj50mHz_a_1Hz.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/FJKC_MXILINX_Reloj50mHz_a_1Hz/BEHAVIORAL 1435670963 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/Reloj50mHz_a_1Hz.vhf" \
+      EN work/FJKC_MXILINX_Reloj50mHz_a_1Hz 1435670962 CP FDC CP AND3B2 CP AND3B1 \
+      CP OR3 CP AND2B1
+EN work/Contador5S2_MUSER_Reloj50mHz_a_1Hz 1435670964 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/Reloj50mHz_a_1Hz.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Contador5S2_MUSER_Reloj50mHz_a_1Hz/BEHAVIORAL 1435670965 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/Reloj50mHz_a_1Hz.vhf" \
+      EN work/Contador5S2_MUSER_Reloj50mHz_a_1Hz 1435670964 CP VCC \
+      CP FJKC_MXILINX_Reloj50mHz_a_1Hz CP AND2 CP INV
+EN work/Contador10S2_MUSER_Reloj50mHz_a_1Hz 1435670966 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/Reloj50mHz_a_1Hz.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Contador10S2_MUSER_Reloj50mHz_a_1Hz/BEHAVIORAL 1435670967 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/Reloj50mHz_a_1Hz.vhf" \
+      EN work/Contador10S2_MUSER_Reloj50mHz_a_1Hz 1435670966 \
+      CP FJKC_MXILINX_Reloj50mHz_a_1Hz CP AND2 CP VCC CP OR2 CP INV
+EN work/Reloj50mHz_a_1Hz 1435670968 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/Reloj50mHz_a_1Hz.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Reloj50mHz_a_1Hz/BEHAVIORAL 1435670969 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/Reloj50mHz_a_1Hz.vhf" \
+      EN work/Reloj50mHz_a_1Hz 1435670968 CP Contador10S2_MUSER_Reloj50mHz_a_1Hz \
+      CP Contador5S2_MUSER_Reloj50mHz_a_1Hz
+FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/vaciado.vhf" 2015/06/30.10:27:48 P.20131013
+EN work/FJKC_MXILINX_vaciado 1435670948 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/vaciado.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/FJKC_MXILINX_vaciado/BEHAVIORAL 1435670949 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/vaciado.vhf" \
+      EN work/FJKC_MXILINX_vaciado 1435670948 CP FDC CP AND3B2 CP AND3B1 CP OR3 \
+      CP AND2B1
+EN work/vaciado 1435670950 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/vaciado.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/vaciado/BEHAVIORAL 1435670951 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/vaciado.vhf" \
+      EN work/vaciado 1435670950 CP GND CP FJKC_MXILINX_vaciado CP AND2 CP AND2B1
+FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/valvula.vhf" 2015/06/30.10:27:48 P.20131013
+EN work/FJKC_MXILINX_valvula 1435670952 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/valvula.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/FJKC_MXILINX_valvula/BEHAVIORAL 1435670953 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/valvula.vhf" \
+      EN work/FJKC_MXILINX_valvula 1435670952 CP FDC CP AND3B2 CP AND3B1 CP OR3 \
+      CP AND2B1
+EN work/valvula 1435670954 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/valvula.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/valvula/BEHAVIORAL 1435670955 \
+      FL "/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/valvula.vhf" \
+      EN work/valvula 1435670954 CP AND2 CP FJKC_MXILINX_valvula CP GND CP AND2B1

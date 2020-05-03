@@ -1,0 +1,5 @@
+MODULE centrifugado
+	SUBMODULE Reloj50mHz_a_1Hz
+		INSTANCE XLXI_24
+	SUBMODULE contador5sin
+		INSTANCE XLXI_26

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="lavarropas.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="Contador10S2.vhf"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="Contador5S2.vhf"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="Reloj50mHz_a_1Hz.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="Reloj50mHz_a_1Hz.vhf"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="centrifugado.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="centrifugado.vhf"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="contador10sin.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="contador10sin.vhf"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="contador5sin.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="contador5sin.vhf"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="conversorS.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="conversorS.vhf"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="demux2_1.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="demux2_1.vhf"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="enjuague.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="enjuague.vhf"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="lavado.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="lavado.vhf"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="lavarropas.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="lavarropas.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="lavarropas.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="lavarropas.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="lavarropas.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_JHD" xil_pn:name="lavarropas.jhd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="lavarropas.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="lavarropas.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="lavarropas.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="lavarropas.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="lavarropas.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="lavarropas.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="lavarropas.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="lavarropas.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="lavarropas.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="lavarropas.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="lavarropas.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="lavarropas.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="lavarropas.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="lavarropas.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="lavarropas.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="lavarropas.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="lavarropas.vhf"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="lavarropas.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="lavarropas.xst"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="lavarropas_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="lavarropas_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="lavarropas_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="lavarropas_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="lavarropas_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="lavarropas_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="lavarropas_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="lavarropas_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="lavarropas_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="lavarropas_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="lavarropas_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="lavarropas_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="lavarropas_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="lavarropas_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="vaciado.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="vaciado.vhf"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="valvula.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="valvula.vhf"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1435670866" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1435670866">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1435670870" xil_pn:in_ck="9070775712077452924" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="5390899041802399235" xil_pn:start_ts="1435670866">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Contador10S2.vhf"/>
+      <outfile xil_pn:name="Contador5S2.vhf"/>
+      <outfile xil_pn:name="Reloj50mHz_a_1Hz.vhf"/>
+      <outfile xil_pn:name="centrifugado.vhf"/>
+      <outfile xil_pn:name="contador10sin.vhf"/>
+      <outfile xil_pn:name="contador5sin.vhf"/>
+      <outfile xil_pn:name="conversorS.vhf"/>
+      <outfile xil_pn:name="demux2_1.vhf"/>
+      <outfile xil_pn:name="enjuague.vhf"/>
+      <outfile xil_pn:name="lavado.vhf"/>
+      <outfile xil_pn:name="lavarropas.vhf"/>
+      <outfile xil_pn:name="vaciado.vhf"/>
+      <outfile xil_pn:name="valvula.vhf"/>
+    </transform>
+    <transform xil_pn:end_ts="1435670870" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="6906011421634151476" xil_pn:start_ts="1435670870">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1435670870" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1435670870">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1435670870" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-5043976487092060799" xil_pn:start_ts="1435670870">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1435670870" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="2988080280822507185" xil_pn:start_ts="1435670870">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1435670870" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-2537971340122986498" xil_pn:start_ts="1435670870">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1435670889" xil_pn:in_ck="-4041680956672360150" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-761994346187116086" xil_pn:start_ts="1435670870">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="lavarropas.jhd"/>
+      <outfile xil_pn:name="lavarropas.lso"/>
+      <outfile xil_pn:name="lavarropas.ngc"/>
+      <outfile xil_pn:name="lavarropas.ngr"/>
+      <outfile xil_pn:name="lavarropas.prj"/>
+      <outfile xil_pn:name="lavarropas.stx"/>
+      <outfile xil_pn:name="lavarropas.syr"/>
+      <outfile xil_pn:name="lavarropas.xst"/>
+      <outfile xil_pn:name="lavarropas_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1435670889" xil_pn:in_ck="6389213694236956295" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="8767599533562018493" xil_pn:start_ts="1435670889">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1435670897" xil_pn:in_ck="2578100730552298888" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-4613591235125457215" xil_pn:start_ts="1435670889">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <outfile xil_pn:name="lavarropas.bld"/>
+      <outfile xil_pn:name="lavarropas.ngd"/>
+      <outfile xil_pn:name="lavarropas_ngdbuild.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1435670907" xil_pn:in_ck="-7317880782892688567" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="3236488012892527759" xil_pn:start_ts="1435670897">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+      <outfile xil_pn:name="lavarropas.pcf"/>
+      <outfile xil_pn:name="lavarropas_map.map"/>
+      <outfile xil_pn:name="lavarropas_map.mrp"/>
+      <outfile xil_pn:name="lavarropas_map.ncd"/>
+      <outfile xil_pn:name="lavarropas_map.ngm"/>
+      <outfile xil_pn:name="lavarropas_map.xrpt"/>
+      <outfile xil_pn:name="lavarropas_summary.xml"/>
+      <outfile xil_pn:name="lavarropas_usage.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1435670933" xil_pn:in_ck="8635255410525543330" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="-4078461964484670437" xil_pn:start_ts="1435670907">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+      <outfile xil_pn:name="lavarropas.ncd"/>
+      <outfile xil_pn:name="lavarropas.pad"/>
+      <outfile xil_pn:name="lavarropas.par"/>
+      <outfile xil_pn:name="lavarropas.ptwx"/>
+      <outfile xil_pn:name="lavarropas.unroutes"/>
+      <outfile xil_pn:name="lavarropas.xpi"/>
+      <outfile xil_pn:name="lavarropas_pad.csv"/>
+      <outfile xil_pn:name="lavarropas_pad.txt"/>
+      <outfile xil_pn:name="lavarropas_par.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1435670940" xil_pn:in_ck="6389213694236948670" xil_pn:name="TRANEXT_bitFile_spartan3e" xil_pn:prop_ck="-7817169320884990698" xil_pn:start_ts="1435670933">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+      <outfile xil_pn:name="lavarropas.bgn"/>
+      <outfile xil_pn:name="lavarropas.bit"/>
+      <outfile xil_pn:name="lavarropas.drc"/>
+      <outfile xil_pn:name="lavarropas.ut"/>
+      <outfile xil_pn:name="usage_statistics_webtalk.html"/>
+      <outfile xil_pn:name="webtalk.log"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1435670933" xil_pn:in_ck="7679593832177042373" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416187" xil_pn:start_ts="1435670929">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+      <outfile xil_pn:name="lavarropas.twr"/>
+      <outfile xil_pn:name="lavarropas.twx"/>
+    </transform>
+  </transforms>
+
+</generated_project>

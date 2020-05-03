@@ -1,0 +1,17 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "btn_comenzar" LOC = P11;
+NET "carga_deposito" LOC = P4;
+NET "descarga_deposito" LOC = N4;
+NET "motor_min" LOC = N5;
+NET "motor_max" LOC = P6;
+NET "reloj50hz" LOC = B8;
+NET "lavando" LOC = P7;
+NET "enjuagando" LOC = M11;
+NET "centrifugando" LOC = M5;
+NET "S_lavado" LOC = N3;
+NET "S_enjuague" LOC = E2;
+NET "S_centrifugado" LOC = F3;
+NET "sensor_lleno" LOC = A7;
+NET "sensor_vacio" LOC = M4;

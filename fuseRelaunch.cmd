@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/joak/Descargas/TP 2/lavarropas/lavarropas_lavarropas_sch_tb_isim_beh.exe" -prj "/home/joak/Descargas/TP 2/lavarropas/lavarropas_lavarropas_sch_tb_beh.prj" "work.lavarropas_lavarropas_sch_tb" 

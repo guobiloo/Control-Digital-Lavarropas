@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="lavarropas" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/Reloj50mHz_a_1Hz |home|joak|Descargas|TP 2|lavarropas|Reloj50mHz_a_1Hz.sch</ClosedNode>
+         <ClosedNode>/centrifugado |home|joak|Descargas|TP 2|lavarropas|centrifugado.sch</ClosedNode>
+         <ClosedNode>/centrifugado |home|joak|Estudio|electronica digital|tps|TP 2|lavarropas|centrifugado.sch</ClosedNode>
+         <ClosedNode>/enjuague |home|joak|Estudio|electronica digital|tps|TP 2|lavarropas|enjuague.sch</ClosedNode>
+         <ClosedNode>/lavado |home|joak|Estudio|electronica digital|tps|TP 2|lavarropas|lavado.sch</ClosedNode>
+         <ClosedNode>/lavarropas |home|joak|Descargas|TP 2|lavarropas|lavarropas.sch/XLXI_24 - centrifugado</ClosedNode>
+         <ClosedNode>/lavarropas |home|joak|Descargas|TP 2|lavarropas|lavarropas.sch/XLXI_24 - centrifugado/XLXI_9 - reloj1hz</ClosedNode>
+         <ClosedNode>/lavarropas |home|joak|Descargas|TP 2|lavarropas|lavarropas.sch/XLXI_45 - centrifugado</ClosedNode>
+         <ClosedNode>/lavarropas |home|joak|Descargas|TP 2|lavarropas|lavarropas.sch/XLXI_5 - lavado</ClosedNode>
+         <ClosedNode>/lavarropas |home|joak|Descargas|TP 2|lavarropas|lavarropas.sch/XLXI_6 - enjuague</ClosedNode>
+         <ClosedNode>/lavarropas |home|joak|Estudio|electronica digital|tps|TP 2|lavarropas|lavarropas.sch</ClosedNode>
+         <ClosedNode>/lavarropas |home|joak|Estudio|electronica digital|tps|TP 2|lavarropas|lavarropas.sch/XLXI_24 - centrifugado</ClosedNode>
+         <ClosedNode>/lavarropas |home|joak|Estudio|electronica digital|tps|TP 2|lavarropas|lavarropas.sch/XLXI_5 - lavado</ClosedNode>
+         <ClosedNode>/lavarropas |home|joak|Estudio|electronica digital|tps|TP 2|lavarropas|lavarropas.sch/XLXI_6 - enjuague</ClosedNode>
+         <ClosedNode>/reloj1hz |home|joak|Descargas|TP 2|lavarropas|reloj1hz.sch</ClosedNode>
+         <ClosedNode>/reloj1hz |home|joak|Estudio|electronica digital|tps|TP 2|lavarropas|reloj1hz.sch</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000104000000020000000000000000000000000200000064ffffffff000000810000000300000002000001040000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>lavarropas (/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/lavarropas.sch)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Update All Schematic Files</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f1000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f10000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Update All Schematic Files</CurrentItem>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000001010000000000000000000000000000000000000277000000040101000100000000000000000000000064ffffffff000000810000000000000004000000b600000001000000000000002b00000001000000000000008800000001000000000000010e0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>lavarropas.ucf</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000110000000010001000100000000000000000000000064ffffffff000000810000000000000001000001100000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>lavarropas.sch</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_SCHEMATIC" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
+         <ClosedNode>Implement Design</ClosedNode>
+         <ClosedNode>Synthesize - XST</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Generate Programming File</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >7</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000e1000000010000000100000000000000000000000064ffffffff000000810000000000000001000000e10000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Generate Programming File</CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff0000000000000002000001460000011d01000000060100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/Contador10S2_Contador10S2_sch_tb - behavioral |home|joak|Descargas|TP 2|lavarropas|prueba_cont10.vhd</ClosedNode>
+         <ClosedNode>/Contador5S2_Contador5S2_sch_tb - behavioral |home|joak|Descargas|TP 2|lavarropas|prueba_cont5.vhd</ClosedNode>
+         <ClosedNode>/Reloj50mHz_a_1Hz |home|joak|Descargas|TP 2|lavarropas|Reloj50mHz_a_1Hz.sch</ClosedNode>
+         <ClosedNode>/Reloj50mHz_a_1Hz_Reloj50mHz_a_1Hz_sch_tb - behavioral |home|joak|Descargas|TP 2|lavarropas|prueba_reloj50mhz.vhd</ClosedNode>
+         <ClosedNode>/centrifugado_centrifugado_sch_tb - behavioral C:|Users|fabian coneti|Desktop|Universidad|Electronica Digital|TP 2|lavarropas|prueba_centrifugado.vhd/UUT - centrifugado</ClosedNode>
+         <ClosedNode>/centrifugado_centrifugado_sch_tb - behavioral |home|joak|Descargas|TP 2|lavarropas|prueba_centrifugado.vhd</ClosedNode>
+         <ClosedNode>/centrifugado_centrifugado_sch_tb - behavioral |home|joak|Estudio|electronica digital|tps|TP 2|lavarropas|prueba_centrifugado.vhd</ClosedNode>
+         <ClosedNode>/contador10sin_contador10sin_sch_tb - behavioral |home|joak|Descargas|TP 2|lavarropas|prueba_contador10s.vhd</ClosedNode>
+         <ClosedNode>/contador10sin_contador10sin_sch_tb - behavioral |home|joak|Estudio|electronica digital|tps|TP 2|lavarropas|prueba_contador10s.vhd</ClosedNode>
+         <ClosedNode>/contador5sin_contador5sin_sch_tb - behavioral |home|joak|Descargas|TP 2|lavarropas|prueba_contadorS5.vhd</ClosedNode>
+         <ClosedNode>/contador5sin_contador5sin_sch_tb - behavioral |home|joak|Estudio|electronica digital|tps|TP 2|lavarropas|prueba_contadorS5.vhd</ClosedNode>
+         <ClosedNode>/contadorAs5_contadorAs5_sch_tb - behavioral |home|joak|Descargas|TP 2|lavarropas|prueba_contadorA5.vhd</ClosedNode>
+         <ClosedNode>/contadorAs5_contadorAs5_sch_tb - behavioral |home|joak|Estudio|electronica digital|tps|TP 2|lavarropas|prueba_contadorA5.vhd</ClosedNode>
+         <ClosedNode>/conversorS_conversorS_sch_tb - behavioral C:|Users|fabian coneti|Desktop|Universidad|Electronica Digital|TP 2|lavarropas|prueba_convertidorS.vhd</ClosedNode>
+         <ClosedNode>/conversorS_conversorS_sch_tb - behavioral |home|joak|Descargas|TP 2|lavarropas|prueba_convertidorS.vhd</ClosedNode>
+         <ClosedNode>/conversorS_conversorS_sch_tb - behavioral |home|joak|Estudio|electronica digital|tps|TP 2|lavarropas|prueba_convertidorS.vhd</ClosedNode>
+         <ClosedNode>/lavado_lavado_sch_tb - behavioral C:|Users|fabian coneti|Desktop|Universidad|Electronica Digital|TP 2|lavarropas|prueba_lavado.vhd</ClosedNode>
+         <ClosedNode>/lavado_lavado_sch_tb - behavioral |home|joak|Estudio|electronica digital|tps|TP 2|lavarropas|prueba_lavado.vhd</ClosedNode>
+         <ClosedNode>/lavarropas |home|joak|Estudio|electronica digital|tps|TP 2|lavarropas|lavarropas.sch</ClosedNode>
+         <ClosedNode>/lavarropas |home|joak|Estudio|electronica digital|tps|TP 2|lavarropas|lavarropas.sch/XLXI_24 - centrifugado</ClosedNode>
+         <ClosedNode>/lavarropas |home|joak|Estudio|electronica digital|tps|TP 2|lavarropas|lavarropas.sch/XLXI_5 - lavado</ClosedNode>
+         <ClosedNode>/lavarropas |home|joak|Estudio|electronica digital|tps|TP 2|lavarropas|lavarropas.sch/XLXI_6 - enjuague</ClosedNode>
+         <ClosedNode>/lavarropas_lavarropas_sch_tb - behavioral C:|Users|fabian coneti|Desktop|Universidad|Electronica Digital|TP 2|lavarropas|prueba_lavarropas.vhd/UUT - lavarropas</ClosedNode>
+         <ClosedNode>/lavarropas_lavarropas_sch_tb - behavioral |home|joak|Descargas|TP 2|lavarropas|prueba_lavarropas.vhd</ClosedNode>
+         <ClosedNode>/lavarropas_lavarropas_sch_tb - behavioral |home|joak|Estudio|electronica digital|tps|TP 2|lavarropas|prueba_lavarropas.vhd</ClosedNode>
+         <ClosedNode>/reloj1hz_reloj1hz_sch_tb - behavioral |home|joak|Descargas|TP 2|lavarropas|prueba_reloj1hz.vhd</ClosedNode>
+         <ClosedNode>/reloj1hz_reloj1hz_sch_tb - behavioral |home|joak|Estudio|electronica digital|tps|TP 2|lavarropas|prueba_reloj1hz.vhd</ClosedNode>
+         <ClosedNode>/vaciado_vaciado_sch_tb - behavioral |home|joak|Descargas|TP 2|lavarropas|prueba_vaciado.vhd</ClosedNode>
+         <ClosedNode>/vaciado_vaciado_sch_tb - behavioral |home|joak|Estudio|electronica digital|tps|TP 2|lavarropas|prueba_vaciado.vhd</ClosedNode>
+         <ClosedNode>/valvula_valvula_sch_tb - behavioral |home|joak|Descargas|TP 2|lavarropas|prueba_valvula.vhd</ClosedNode>
+         <ClosedNode>/valvula_valvula_sch_tb - behavioral |home|joak|Estudio|electronica digital|tps|TP 2|lavarropas|prueba_valvula.vhd</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Contador10S2_Contador10S2_sch_tb - behavioral (/home/joak/Descargas/TP 2/lavarropas/prueba_cont10.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >6</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000263000000020000000000000000000000000200000064ffffffff000000810000000300000002000002630000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>Contador10S2_Contador10S2_sch_tb - behavioral (/home/joak/Descargas/TP 2/lavarropas/prueba_cont10.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
+         <ClosedNode>ISim Simulator</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f1000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f10000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Simulate Behavioral Model</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f1000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f10000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Simulate Behavioral Model</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_SCHEMATIC" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>ISim Simulator</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_UCF" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f1000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f10000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+</Project>

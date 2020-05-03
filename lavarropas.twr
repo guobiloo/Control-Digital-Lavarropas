@@ -1,0 +1,115 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (lin)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+/home/joak/Programas/xilinx/14.7/ISE_DS/ISE/bin/lin/unwrapped/trce -intstyle
+ise -v 3 -s 5 -n 3 -fastpaths -xml lavarropas.twx lavarropas.ncd -o
+lavarropas.twr lavarropas.pcf -ucf lavarropas.ucf
+
+Design file:              lavarropas.ncd
+Physical constraint file: lavarropas.pcf
+Device,package,speed:     xc3s100e,cp132,-5 (PRODUCTION 1.27 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock reloj50hz
+--------------+------------+------------+------------------+--------+
+              |Max Setup to|Max Hold to |                  | Clock  |
+Source        | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+--------------+------------+------------+------------------+--------+
+S_centrifugado|    1.933(R)|   -0.449(R)|reloj50hz_BUFGP   |   0.000|
+S_enjuague    |    3.487(R)|   -0.875(R)|reloj50hz_BUFGP   |   0.000|
+S_lavado      |    3.265(R)|   -0.252(R)|reloj50hz_BUFGP   |   0.000|
+btn_comenzar  |    1.669(R)|   -0.060(R)|reloj50hz_BUFGP   |   0.000|
+sensor_lleno  |    1.282(R)|    0.373(R)|reloj50hz_BUFGP   |   0.000|
+sensor_vacio  |    0.669(R)|    0.639(R)|reloj50hz_BUFGP   |   0.000|
+--------------+------------+------------+------------------+--------+
+
+Clock reloj50hz to Pad
+-----------------+------------+------------------+--------+
+                 | clk (edge) |                  | Clock  |
+Destination      |   to PAD   |Internal Clock(s) | Phase  |
+-----------------+------------+------------------+--------+
+carga_deposito   |   10.196(R)|reloj50hz_BUFGP   |   0.000|
+centrifugando    |   11.057(R)|reloj50hz_BUFGP   |   0.000|
+descarga_deposito|    9.941(R)|reloj50hz_BUFGP   |   0.000|
+enjuagando       |   10.238(R)|reloj50hz_BUFGP   |   0.000|
+lavando          |   10.076(R)|reloj50hz_BUFGP   |   0.000|
+motor_max        |   11.215(R)|reloj50hz_BUFGP   |   0.000|
+motor_min        |    9.813(R)|reloj50hz_BUFGP   |   0.000|
+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock reloj50hz
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+reloj50hz      |    4.116|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+-----------------+---------+
+Source Pad     |Destination Pad  |  Delay  |
+---------------+-----------------+---------+
+S_centrifugado |centrifugando    |    8.068|
+S_centrifugado |motor_max        |    8.226|
+S_enjuague     |carga_deposito   |    8.729|
+S_enjuague     |centrifugando    |    9.890|
+S_enjuague     |descarga_deposito|    8.774|
+S_enjuague     |enjuagando       |    8.771|
+S_enjuague     |motor_max        |   10.048|
+S_enjuague     |motor_min        |    8.346|
+S_lavado       |carga_deposito   |    8.412|
+S_lavado       |centrifugando    |    9.668|
+S_lavado       |descarga_deposito|    8.552|
+S_lavado       |enjuagando       |    8.454|
+S_lavado       |lavando          |    8.337|
+S_lavado       |motor_max        |    9.826|
+S_lavado       |motor_min        |    8.029|
+btn_comenzar   |carga_deposito   |    7.422|
+btn_comenzar   |centrifugando    |    8.072|
+btn_comenzar   |lavando          |    8.025|
+btn_comenzar   |motor_max        |    8.230|
+btn_comenzar   |motor_min        |    7.103|
+---------------+-----------------+---------+
+
+
+Analysis completed Tue Jun 30 10:28:53 2015 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 97 MB
+
+
+

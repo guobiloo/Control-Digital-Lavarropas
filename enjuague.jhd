@@ -1,0 +1,5 @@
+MODULE enjuague
+	SUBMODULE contador10sin
+		INSTANCE XLXI_1
+	SUBMODULE Reloj50mHz_a_1Hz
+		INSTANCE XLXI_16

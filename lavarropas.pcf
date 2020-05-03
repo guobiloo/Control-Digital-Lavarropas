@@ -1,0 +1,23 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Tue Jun 30 10:28:26 2015
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "S_lavado" LOCATE = SITE "N3" LEVEL 1;
+COMP "centrifugando" LOCATE = SITE "M5" LEVEL 1;
+COMP "carga_deposito" LOCATE = SITE "P4" LEVEL 1;
+COMP "S_enjuague" LOCATE = SITE "E2" LEVEL 1;
+COMP "enjuagando" LOCATE = SITE "M11" LEVEL 1;
+COMP "sensor_vacio" LOCATE = SITE "M4" LEVEL 1;
+COMP "btn_comenzar" LOCATE = SITE "P11" LEVEL 1;
+COMP "descarga_deposito" LOCATE = SITE "N4" LEVEL 1;
+COMP "motor_max" LOCATE = SITE "P6" LEVEL 1;
+COMP "motor_min" LOCATE = SITE "N5" LEVEL 1;
+COMP "reloj50hz" LOCATE = SITE "B8" LEVEL 1;
+COMP "S_centrifugado" LOCATE = SITE "F3" LEVEL 1;
+COMP "sensor_lleno" LOCATE = SITE "A7" LEVEL 1;
+COMP "lavando" LOCATE = SITE "P7" LEVEL 1;
+NET "reloj50hz_BUFGP/IBUFG" BEL "reloj50hz_BUFGP/BUFG.GCLKMUX"
+        USELOCALCONNECT;
+SCHEMATIC END;
+

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/lavarropas.ncd
+OUTFILE=/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas/lavarropas.bit
+FAMILY=Spartan3E
+PART=xc3s100e-5cp132
+WORKINGDIR=/home/joak/Estudio/electronica digital/tps/TP 2/lavarropas
+LICENSE=WebPack
+USER_INFO=_0_0_1381685376_010
