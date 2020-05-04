@@ -25,5 +25,8 @@ A continuación, se adjunta el informe que detalla la resolución del diseño en
 
 [ver informe de Implementación PDF](https://github.com/guobiloo/Control-Digital-Lavarropas/blob/master/informe%20-%20control%20digital%20de%20lavarropas.pdf)
 
+También puede consultar su implementación (junto a la visualización del PDF) en mi página web personal de proyectos:
+[proyecto: lavarropas](https://guobiloo.github.io/diseno-control-digital-lavarropas/)
+
 ## Video de la simulación
 [![Diseño digital de control automático de lavarropas](http://img.youtube.com/vi/94JvlFr-tns/0.jpg)](http://www.youtube.com/watch?v=94JvlFr-tns "Diseño digital de control automático de lavarropas")
